@@ -1,48 +1,36 @@
 import weather from "./images/weather.jpg";
 import language from "./images/language.jpg";
-import music from "./images/music.jpg";
+import todo from "./images/todo.jpg";
 import nasa from "./images/nasa.jpg";
-import estate from "./images/estate.jpg";
-import ships from "./images/ships.jpg";
 
 export const webPortfolio = [
     {
       id: 1,
       title: "Weather-app",
-      url: "https://weather-app-ochre-eight.vercel.app",
+      url: "https://github.com/WilPowell1/weather-app",
       img:
         weather,
     },
     {
       id: 2,
       title: "LingoGuru",
-      url: "https://lingoguru.netlify.app/",
+      url: "https://github.com/etrovavica1221/language-flashcards",
       img:
         language,
     },
     {
       id: 3,
-      title: "Music-library-api",
+      title: "Todo list",
+      url: "https://github.com/WilPowell1/todo-list-app",
       img:
-        music,
+        todo,
     },
     {
       id: 4,
-      title: "Surreal-estate",
-      img:
-        estate,
-    },
-    {
-      id: 5,
       title: "NASA images",
+      url: "https://github.com/WilPowell1/Nasa-search-images",
       img:
         nasa,
-    },
-    {
-      id: 6,
-      title: "Cruise-ships",
-      img:
-        ships,
     },
   ];
   

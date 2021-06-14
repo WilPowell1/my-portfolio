@@ -43,7 +43,7 @@
 }
 
 .portfolio .container {
-  width: 70%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,10 +64,10 @@
 }
 
 .portfolio .container .item {
-  width: 220px;
-  height: 150px;
+  width: 300px;
+  height: 180px;
   border-radius: 20px;
-  border: 1px solid #f0efef;
+  border: none;
   margin: 10px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,6 +83,8 @@
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
   cursor: pointer;
+  -webkit-box-shadow: 5px 5px 8px black;
+          box-shadow: 5px 5px 8px black;
 }
 
 @media (max-width: 768px) {

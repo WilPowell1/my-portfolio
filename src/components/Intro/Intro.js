@@ -2,22 +2,21 @@ import React from "react";
 import "./intro.css";
 import { SocialIcon } from "react-social-icons";
 import MyCv from "../../docs/MyCv.pdf";
+import ProfilePic from "../../images/profile-pic.png";
 
 const Intro = () => {
 
     return (
         <div className="intro" id="intro">
           <div className="left">
-            <div className="imgContainer">
-              <img src="" alt="" />
-            </div>
+            <img src={ProfilePic} alt=""/>
           </div>
           <div className="right">
             <div className="wrapper">
               <h2>Hi, I'm</h2>
               <h1>Wil</h1>
               <h3>
-                Web Developer
+                web developer
               </h3>
               <div className="icon-wrapper">
                 <div className="icon-link">

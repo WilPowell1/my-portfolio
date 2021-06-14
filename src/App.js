@@ -1,6 +1,5 @@
 import { React, useState } from "react";
 import "./app.css";
-import Contact from "./components/Contact/Contact"; 
 import Intro from "./components/Intro/Intro";
 import TopBar from "./components/TopBar/TopBar";
 import Menu from "./components/Menu/Menu";
@@ -16,7 +15,6 @@ const App = () => {
             <div className="sections">
               <Intro />
               <Portfolio />
-              <Contact/>
             </div>
       </div>
   );

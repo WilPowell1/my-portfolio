@@ -28,7 +28,7 @@
   }
 
   .container {
-    width: 70%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,10 +39,10 @@
     }
 
     .item {
-      width: 220px;
-      height: 150px;
+      width: 300px;
+      height: 180px;
       border-radius: 20px;
-      border: 1px solid rgb(240, 239, 239);
+      border: none;
       margin: 10px 20px;
       display: flex;
       align-items: center;
@@ -51,6 +51,7 @@
       position: relative;
       transition: all .5s ease;
       cursor: pointer;
+      box-shadow: 5px 5px 8px black;
 
       @include mobile{
         width: 130px;

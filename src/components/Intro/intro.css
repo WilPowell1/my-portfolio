@@ -3,18 +3,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-@media (max-width: 768px) {
-  .intro {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
+  /*@include mobile{
+    flex-direction: column;
+    align-items: center;
+  }*/
 }
 
 .intro a {
@@ -77,31 +69,12 @@
           align-items: center;
 }
 
-.intro .left .imgContainer {
-  width: 70%;
+.intro .left img {
   height: 70%;
-  background-color: #0853a8;
-  border-radius: 100%;
-  -webkit-box-shadow: 5px 5px 8px #8a8a8a;
-          box-shadow: 5px 5px 8px #8a8a8a;
-}
-
-@media (max-width: 768px) {
-  .intro .left .imgContainer {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-}
-
-.intro .left .imgContainer img {
-  height: 90%;
-}
-
-@media (max-width: 768px) {
-  .intro .left .imgContainer img {
-    height: 50%;
-  }
+  width: 70%;
+  /*@include mobile{
+          height: 50%;
+        }*/
 }
 
 .intro .right {
@@ -109,22 +82,6 @@
       -ms-flex: 0.5;
           flex: 0.5;
   position: relative;
-  /*a {
-      position: absolute;
-      bottom: 10px;
-      left: 40%;
-
-      img {
-        width: 30px;
-        animation: arrowBlink 2s infinite;
-      }
-
-      @keyframes arrowBlink {
-        100% {
-          opacity: 0;
-        }
-      }
-    } */
 }
 
 .intro .right .wrapper {
@@ -141,15 +98,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-@media (max-width: 768px) {
-  .intro .right .wrapper {
-    padding-left: 0;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
+  /*@include mobile{
+        padding-left: 0;
+        align-items: center;
+      }*/
 }
 
 .intro .right .wrapper .icon-wrapper {
@@ -173,12 +125,9 @@
   font-size: 60px;
   margin: 10px 0;
   color: #0853a8;
-}
-
-@media (max-width: 768px) {
-  .intro .right .wrapper h1 {
-    font-size: 40px;
-  }
+  /*@include mobile{
+          font-size: 40px;
+        }*/
 }
 
 .intro .right .wrapper h2 {
@@ -187,12 +136,9 @@
 
 .intro .right .wrapper h3 {
   font-size: 30px;
-}
-
-@media (max-width: 768px) {
-  .intro .right .wrapper h3 {
-    font-size: 20px;
-  }
+  /*@include mobile{
+          font-size: 20px;
+        }*/
 }
 
 .intro .right .wrapper h3 span {
