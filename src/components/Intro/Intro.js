@@ -1,7 +1,7 @@
 import React from "react";
 import "./intro.css";
 import { SocialIcon } from "react-social-icons";
-import MyCv from "../../docs/MyCv.pdf";
+import MyCv from "../../docs/Wil CV.pdf";
 import ProfilePic from "../../images/profile-pic.png";
 
 const Intro = () => {
